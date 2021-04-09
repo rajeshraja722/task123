@@ -39,6 +39,10 @@ public static void main(String[] args) throws IOException {
    for (int i = 0; i < physicalNumberOfCells; i++) {
 	   Cell cell2 = row.getCell(i);
 	   System.out.println("all data :"+ cell2);
+	   System.out.println("all data :"+ cell2);
+	   System.out.println("all data :"+ cell2);
+	   System.out.println("all data :"+ cell2);
+	   System.out.println("all data :"+ cell2);
 	   
 	  
 	   
@@ -63,6 +67,9 @@ public static void main(String[] args) throws IOException {
 	   double numericCellValue = cell.getNumericCellValue();
 	   long l=(long) numericCellValue;
 	   String valueOf = String.valueOf(l);
+	   System.out.println("else:"+valueOf);
+	   System.out.println("else:"+valueOf);
+	   System.out.println("else:"+valueOf);
 	   System.out.println("else:"+valueOf);
 	   
    }
